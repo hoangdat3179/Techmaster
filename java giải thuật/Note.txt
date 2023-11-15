@@ -1,0 +1,6 @@
+Thứ 4
+88. Merge Sorted Array
+(https://www.youtube.com/watch?v=-x9T4LBrTmA)
+
+387. First Unique Character in a String
+Thuật toán sắp xếp nổi bọt

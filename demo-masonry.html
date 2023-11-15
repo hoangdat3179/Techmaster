@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Demo Masonry</title>
+
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+      }
+      img {
+        max-width: 100%;
+        display: block;
+      }
+      .grid {
+        max-width: 900px;
+        margin: auto;
+      }
+      .grid-item {
+        width: 300px;
+        padding: 5px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="grid">
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c65q43k51cod6e7c2vng"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c654r8451cob0ng450fg"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/c2m5ou451cob24f6skeg/c64tdns51cob0ng450b0"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/bub3enc51co7s932dsk0/c3o1kfk51co54dnk9kig/////"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1596097563792-5HU5MV3E4NKG788ZI8LX/image-asset.jpeg?format=500w"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/c2m5ou451cob24f6skeg/c62egac51co49felapjg"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1617186672362-9ERWCCPU1Q4OH3M17018/image-asset.jpeg?format=500w"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://images.squarespace-cdn.com/content/v1/554b5e7ce4b0149371f10a93/1619421532916-PQH4INJFDYGA07RW46ST/image-asset.jpeg?format=500w"
+        />
+      </div>
+      <div class="grid-item">
+        <img
+          src="https://techmaster.vn/media/static/bu4ig5v0k7qi2frauieg/c5t0or451co49felanu0"
+        />
+      </div>
+    </div>
+
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <script>
+      var elem = document.querySelector(".grid");
+      var msnry = new Masonry(elem, {
+        itemSelector: ".grid-item",
+      });
+
+      var msnry = new Masonry(".grid", {
+        // options
+      });
+    </script>
+  </body>
+</html>

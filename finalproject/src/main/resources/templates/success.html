@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head th:replace="template_client.html :: header('Payment Success')"></head>
+  <body>
+    <header th:insert="template_client.html :: topmenu"></header>
+
+    <div class="page-heading">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="top-text header-text">
+              <div>
+                <h2>Thanh toán thành công</h2>
+                <h3>
+                  Hóa đơn đã được gửi vào mail, vui lòng check mã bill để
+                  check-in nhà
+                </h3>
+                <a class="btn btn-primary" aria-current="page" th:href="|/api/v1/user/listreverse/${user.getId()}|">Xem lịch sử đặt phòng</a><br>
+                <a class="btn btn-primary" aria-current="page" href="/">Trang chủ</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer th:insert="template_client.html :: footer"></footer>
+  </body>
+</html>

@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <!-- Styles Global -->
+        <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+        <!-- Bootstrap core css -->
+        <link
+            rel="stylesheet"
+            type="text/css"
+            href="plugins/bootstrap-5.2.0-beta1-dist/css/bootstrap.min.css">
+        <!-- FontAws -->
+        <link rel="stylesheet" href="plugins/fontawesome-free-6.1.1-web/css/all.css">
+    </head>
+    <body>
+        <!-- Top-bar -->
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <ul class="wrap-topbar-left">
+                            <li class="phone">+00 1234 567</li>
+                            <li class="email">youremail@email.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="wrap-topbar-right">
+                            <div class="social">
+                                <ul class="ul-social">
+                                    <li>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-facebook"
+                                            viewbox="0 0 16 16">
+                                            <path
+                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-facebook"
+                                            viewbox="0 0 16 16">
+                                            <path
+                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-facebook"
+                                            viewbox="0 0 16 16">
+                                            <path
+                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                        </svg>
+                                    </li>
+                                    <li>
+                                        <svg
+                                            xmlns="http://www.w3.org/2000/svg"
+                                            width="16"
+                                            height="16"
+                                            fill="currentColor"
+                                            class="bi bi-facebook"
+                                            viewbox="0 0 16 16">
+                                            <path
+                                                d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                                        </svg>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="control-admin">
+                                <ul class="sing-up">
+                                    <li>sing up</li>
+                                    <li>log gin</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Header-Main -->
+        <div class="header-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 col-md-4">
+                        <a href="#" class="link-logo">
+                            Liquor
+                            <span>store</span>
+                        </a>
+                    </div>
+                    <div class="col-12 col-sm-8 col-md-8">
+                        <div class="icon-menu">
+                            <button data-bs-toggle="collapse" data-bs-target="#menu-main">
+                                <i class="fa-solid fa-bars"></i>
+                            </button>
+
+                            <ul class="nav nav-header-main collapse" id="menu-main">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">About</a>
+                                </li>
+                                <li class="nav-item parent-menu">
+                                    <a class="nav-link" href="#">
+                                        Products
+                                    </a>
+                                    <ul class="sub-menu">
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                        <li>
+                                            <a href="">Products</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Blog</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">
+                                        <i class="fa-solid fa-cart-shopping"></i>
+                                        <span class="count-cart">3</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div id="main">
+                            <button class="openbtn" onclick="openNav()">☰</button>
+                        </div>
+
+                        <div id="mySidebar" class="sidebar">
+                            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                            <a href="#">About</a>
+                            <a href="#">Services</a>
+                            <a href="#">Clients</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Banner-Main -->
+        <div class="banner-main">
+            <div class="content-banner">
+                <div class="wrap-content">
+                    <h1 class="title-banner">Good
+                        <span>Drink</span>
+                        for Good
+                        <span>Moments</span>.</h1>
+                    <div class="btn-baner">
+                        <button type="button" class="btn btn-danger">
+                            Dark
+                        </button>
+                        <button type="button" class="btn btn-success">
+                            Light
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Feature-Main -->
+        <div class="feature-main">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-4 col-md-4">
+                        <div class="feature-main-left"></div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4">
+                        <div class="feature-main-center"></div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4">
+                        <div class="feature-main-right"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Introduct-Main -->
+        <div class="introduct-main">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="introduct-main-left"></div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <div class="introduct-main-right"></div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-sm-2 col-md-2">
+                        <div class="wrap-introduct">
+                            <div class="img-introduct"></div>
+                            <h3>Lorem textarea</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-2">
+                        <div class="wrap-introduct">
+                            <div class="img-introduct"></div>
+                            <h3>Lorem textarea</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-2">
+                        <div class="wrap-introduct">
+                            <div class="img-introduct"></div>
+                            <h3>Lorem textarea</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-2">
+                        <div class="wrap-introduct">
+                            <div class="img-introduct"></div>
+                            <h3>Lorem textarea</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-2">
+                        <div class="wrap-introduct">
+                            <div class="img-introduct"></div>
+                            <h3>Lorem textarea</h3>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-2 col-md-2">
+                        <div class="wrap-introduct">
+                            <div class="img-introduct"></div>
+                            <h3>Lorem textarea</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Listing product -->
+        <div class="listing-product">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="wrap-title">
+                            <p class="sub-title">Our Delightful offerings</p>
+                            <h2 class="title-listing">Tastefully Yours</h2>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-3 col-md-3">
+                        <div class="item-product"></div>
+                    </div>
+                    <div class="col-12 col-sm-3 col-md-3">
+                        <div class="item-product"></div>
+                    </div>
+                    <div class="col-12 col-sm-3 col-md-3">
+                        <div class="item-product"></div>
+                    </div>
+                    <div class="col-12 col-sm-3 col-md-3">
+                        <div class="item-product"></div>
+                    </div>
+                    <div class="col-12 col-sm-3 col-md-3">
+                        <div class="item-product"></div>
+                    </div>
+                    <div class="col-12 col-sm-3 col-md-3">
+                        <div class="item-product"></div>
+                    </div>
+                    <div class="col-12 col-sm-3 col-md-3">
+                        <div class="item-product"></div>
+                    </div>
+                    <div class="col-12 col-sm-3 col-md-3">
+                        <div class="item-product"></div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="wrap-btn">
+                            <button class="btn-showmore">View All Products
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Reviews-Customer -->
+        <div class="reviews-customer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <div class="wrap-title">
+                            <p class="sub-title">Our Delightful offerings</p>
+                            <h2 class="title-reviews">Tastefully Yours</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12">
+                        <!-- Cach 1 -->
+                        <div class="wrap-footer">
+                            <div class="gird-item-footer">
+                                <div class="child"></div>
+                            </div>
+                            <div class="gird-item-footer">
+                                <div class="child"></div>
+                            </div>
+                            <div class="gird-item-footer">
+                                <div class="child"></div>
+                            </div>
+                            <div class="gird-item-footer">
+                                <div class="child"></div>
+                            </div>
+                            <div class="gird-item-footer">
+                                <div class="child"></div>
+                            </div>
+                        </div>
+                        <!-- Cach 2 -->
+                        <div class="wrap-flex-footer">
+                            <div class="item-footer-flex">
+                                <div class="child"></div>
+                            </div>
+                            <div class="item-footer-flex">
+                                <div class="child"></div>
+                            </div>
+                            <div class="item-footer-flex">
+                                <div class="child"></div>
+                            </div>
+                            <div class="item-footer-flex">
+                                <div class="child"></div>
+                            </div>
+                            <div class="item-footer-flex">
+                                <div class="child"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a
+                                class="nav-link dropdown-toggle"
+                                href="#"
+                                id="navbarDropdown"
+                                role="button"
+                                data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li>
+                                    <a class="dropdown-item" href="#">Action</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Another action</a>
+                                </li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li>
+                                    <a class="dropdown-item" href="#">Something else here</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input
+                            class="form-control me-2"
+                            type="search"
+                            placeholder="Search"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Bootstrap core JS -->
+        <script
+            type="text/javascript"
+            src="plugins/bootstrap-5.2.0-beta1-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="assets/js/custome-menu.js"></script>
+    </body>
+</html>

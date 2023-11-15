@@ -1,0 +1,81 @@
+[{
+    "id": 1,
+    "title": "Dark House",
+    "author": "Laurette Dongles",
+    "category": ["Horror","Thriller"],
+    "publishingYear": 2010,
+    "publishingCompany": "Grant LLC",
+    "pageNumber": 155
+  }, {
+    "id": 2,
+    "title": "Photographer (Fotoamator)",
+    "author": "Dell Perello",
+    "category": ["Documentary"],
+    "publishingYear": 1992,
+    "publishingCompany": "Haag Group",
+    "pageNumber": 39
+  }, {
+    "id": 3,
+    "title": "Night Terrors",
+    "author": "Kevyn Balser",
+    "category": ["Horror"],
+    "publishingYear": 2010,
+    "publishingCompany": "Kessler, Yundt and Franecki",
+    "pageNumber": 281
+  }, {
+    "id": 4,
+    "title": "Prime Suspect 3",
+    "author": "Inglis Warre",
+    "category": ["Crime","Drama","Mystery"],
+    "publishingYear": 1997,
+    "publishingCompany": "Emard and Sons",
+    "pageNumber": 284
+  }, {
+    "id": 5,
+    "title": "Boxcar Bertha",
+    "author": "Brennan McLemon",
+    "category": ["Drama"],
+    "publishingYear": 1985,
+    "publishingCompany": "Hermiston Group",
+    "pageNumber": 112
+  }, {
+    "id": 6,
+    "title": "Breakout",
+    "author": "Davide McGourty",
+    "category": ["Action","Adventure"],
+    "publishingYear": 2005,
+    "publishingCompany": "Koch-Jakubowski",
+    "pageNumber": 236
+  }, {
+    "id": 7,
+    "title": "Once",
+    "author": "Sidney Dagleas",
+    "category": ["Drama", "Musical","Romance"],
+    "publishingYear": 2012,
+    "publishingCompany": "Lesch-Beier",
+    "pageNumber": 49
+  }, {
+    "id": 8,
+    "title": "Dream Team 1935",
+    "author": "Ripley Crake",
+    "category": ["Comedy|Drama"],
+    "publishingYear": 1988,
+    "publishingCompany": "Roberts LLC",
+    "pageNumber": 30
+  }, {
+    "id": 9,
+    "title": "Carey Treatment, The",
+    "author": "Angie Monelle",
+    "category": ["Mystery"],
+    "publishingYear": 1995,
+    "publishingCompany": "Rath-Dickens",
+    "pageNumber": 206
+  }, {
+    "id": 10,
+    "title": "Fuse (Gori vatra)",
+    "author": "Pail Waddup",
+    "category": ["Comedy","Drama"],
+    "publishingYear": 2010,
+    "publishingCompany": "West and Sons",
+    "pageNumber": 291
+  }]
